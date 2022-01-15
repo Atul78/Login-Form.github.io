@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;500&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f1f1;
+}
+
+/* form container */
+
+.form-container{
+    /* border: 2px solid red; */
+    width: 40vh;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 2rem 2rem #888888;
+    background: linear-gradient(rgba(255, 20, 11, 0.133), rgba(0, 255, 191, 0.133), rgba(255, 0, 0, 0.133));
+}
+
+/* login container */
+.Heading{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    padding: 15px;
+}
+
+/* input field */
+
+.form-container .input-field{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+.input-field input{
+    border: none;
+    border-color: aqua;
+    /* border: 1px solid red; */
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.input-field #Email{
+    border: 2px solid rgb(148, 145, 145);
+}
+
+.input-field #Email:hover{
+    border: 2px solid rgb(80, 80, 80);
+}
+
+
+.input-field #password{
+    border: 2px solid rgb(148, 145, 145);
+}
+
+.input-field #password:hover{
+    border: 2px solid rgb(80, 80, 80);
+}
+
+.input-field input[type="submit"]{
+    padding: 10px;
+}
+
+.input-field input[type="text"], .input-field input[type="password"]{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.input-field #btn{
+    width: 50%;
+    border: 2px solid rgb(148, 145, 145);
+    margin-left: 26%;
+    box-shadow: 0 1rem 2rem #888888;
+    padding: 20p;
+    font-weight: 700;
+}
+.input-field #btn:hover{
+    cursor: pointer;
+    border: 2px solid rgb(80, 80, 80);
+    
+}
+
