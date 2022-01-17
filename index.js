@@ -1,16 +1,16 @@
 function validate(){
     const username = document.getElementById("Email").value;
     const pass = document.getElementById("password").value;
-    if(username =="admin" && pass == "user")
+    if(username =="Atul" && pass == "password")
     {
         alert("Login Successfully");
     }
     else{
-        if(username != 'admin'){
-            alert('Enter Valid Username "admin"')
+        if(username != 'Atul'){
+            alert('Enter Valid Username "Atul"')
         }
         else{
-            alert('Enter Valid Password "user"')
+            alert('Enter Valid Password "password"')
         }
         // alert("Login Failed");
     }
